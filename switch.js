@@ -1,5 +1,5 @@
-function studentGrade(){
-    let grade
+function studentGrade(grade){
+    
 
 switch (grade) {
     case 'A':
@@ -19,4 +19,4 @@ switch (grade) {
        
 }
 }
-studentGrade()
+studentGrade('A')
