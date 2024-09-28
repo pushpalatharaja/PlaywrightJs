@@ -5,7 +5,7 @@ if(value<0){
     
 }
 
-else if(value==0){
+else if(value===0){
     console.log("It is zero");
     }
 else{
