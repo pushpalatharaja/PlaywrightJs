@@ -1,6 +1,6 @@
-const launch=function launchBrowser(){
-    let browserName='Chrome'
-    if(browserName=='Chrome'){
+const launch=function(){
+    const browserName='Chrome'
+    if(browserName==='Chrome'){
         console.log("It is Chrome");
         
     }  
@@ -12,7 +12,7 @@ const launch=function launchBrowser(){
 
 }
 const run=() => {
-    let testType = 'sanity';
+    const testType = 'sanity';
     switch (testType) {
         case 'smoke':
             console.log('Successfully smoke test have completed');
