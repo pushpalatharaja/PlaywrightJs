@@ -1,6 +1,6 @@
-var fibonacci = function (num) {
-    var fibono = 0;
-    for (var i = 0; i <= num; i++) {
+let fibonacci = function (num) {
+    let fibono = 0;
+    for (let i = 0; i <= num; i++) {
         fibono = fibono + i;
     }
     console.log(fibono);
